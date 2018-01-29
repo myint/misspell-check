@@ -1,4 +1,5 @@
 {
+    "dependending": ["depending"],
     "explicity": ["explicitly"],
     "explicitley": ["explicitly"],
     "frustrum": ["frustum"],
