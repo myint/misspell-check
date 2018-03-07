@@ -77,6 +77,8 @@ class UtilityFunctionTestCase(unittest.TestCase):
                          misspellings.split_words('one__two__three'))
         self.assertEqual(['one', 'two', 'three', 'four'],
                          misspellings.split_words('one_two_three four'))
+        self.assertEqual(['ONE', 'TWO', 'THREE'],
+                         misspellings.split_words('ONE__TWO__THREE'))
 
     def test_split_words_with_punctuation(self):
         self.assertEqual(['one', 'two'],

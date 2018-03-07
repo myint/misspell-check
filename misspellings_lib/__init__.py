@@ -22,7 +22,7 @@ import string
 __version__ = '3.0'
 
 
-_NORM_REGEX = re.compile(r'([A-Z][a-z]*)')
+_NORM_REGEX = re.compile(r'([A-Z][a-z]+)')
 _WORD_REGEX = re.compile(r'[\s_0-9\W]+', flags=re.UNICODE)
 
 
